@@ -3,7 +3,7 @@ import { Button, Col, Input, Row } from 'reactstrap';
 import axios from 'axios'
 
 //Getting server URL
-const SERVER_URL = 'http://localhost:8000';
+const SERVER_URL = 'https://todo-server-fpsx.onrender.com';
 
 const App = () => {
   const [value, setValue] = useState('');
